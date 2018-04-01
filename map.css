@@ -1,0 +1,147 @@
+  /*導航條開始*/
+  .navbar-default {
+  background-color: #66b3ff;
+  border-color: #478dec;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #478dec;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #478dec;
+}
+.navbar-default .navbar-toggle {
+  border-color: #478dec;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #478dec;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #478dec;
+  }
+}
+  /*導航條結束*/
+
+  /*ＲＷＤ表格開始*/
+  .rwd-table {
+       background: #fff;
+       overflow: hidden;
+      }
+
+      .rwd-table tr:nth-of-type(2n){
+        background: #fff;
+      }
+      .rwd-table th, 
+      .rwd-table td {
+        margin: 0.5em 1em;
+      }
+      .rwd-table {
+        min-width: 100%;
+      }
+
+      .rwd-table th {
+        display: none;
+      }
+
+      .rwd-table td {
+        display: block;
+      }
+
+      .rwd-table td:before {
+        content: attr(data-th) " : ";
+        font-weight: bold;
+        width: 4.6em;
+        display: inline-block;
+      }
+
+      .rwd-table th, .rwd-table td {
+        text-align: left;
+      }
+
+      .rwd-table th, .rwd-table td:before {
+        color: #D20B2A;
+        font-weight: bold;
+      }
+
+      @media (min-width: 480px) {
+        .rwd-table td:before {
+          display: none;
+        }
+       .rwd-table th, .rwd-table td {
+          display: table-cell;
+          padding: 0.25em 0.5em;
+        }
+        .rwd-table th:first-child, 
+        .rwd-table td:first-child {
+          padding-left: 0;
+        }
+        .rwd-table th:last-child, 
+        .rwd-table td:last-child {
+          padding-right: 0;
+        }
+         .rwd-table th, 
+         .rwd-table td {
+          padding: 1em !important;
+        }
+      }
+    /*ＲＷＤ表格結束*/
+
+      #map
+      {
+        width: 350px;
+        height: 380px;
+      }
+
+       .bg
+      {
+          background-color: #004B97 ;
+      }
+    
